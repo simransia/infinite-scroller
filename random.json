@@ -1,0 +1,282 @@
+{"results":[{
+    "gender": "male",
+    "name": {
+        "title": "Monsieur",
+        "first": "Mathias",
+        "last": "Francois"
+    },
+    "location": {
+        "street": {
+            "number": 2877,
+            "name": "Rue Bossuet"
+        },
+        "city": "Étoy",
+        "state": "Schwyz",
+        "country": "Switzerland",
+        "postcode": 8670,
+        "coordinates": {
+            "latitude": "-52.8172",
+            "longitude": "-121.0420"
+        },
+        "timezone": {
+            "offset": "-11:00",
+            "description": "Midway Island, Samoa"
+        }
+    },
+    "email": "mathias.francois@example.com",
+    "login": {
+        "uuid": "a5047491-85d9-499c-bd44-33d0d9386f1d",
+        "username": "crazyfish283",
+        "password": "straight",
+        "salt": "Ix3LJLYS",
+        "md5": "7741db04545425622de1c0aae0141b22",
+        "sha1": "8fc5b6468c6838d2ff9d68e51f77aa24de05b2b8",
+        "sha256": "d832a18216c5576133b169997c09b45edc23be6007ba697ffd401da30a13bb10"
+    },
+    "dob": {
+        "date": "1955-04-22T22:46:48.698Z",
+        "age": 67
+    },
+    "registered": {
+        "date": "2016-10-18T23:36:03.856Z",
+        "age": 6
+    },
+    "phone": "078 253 90 80",
+    "cell": "078 197 51 63",
+    "id": {
+        "name": "AVS",
+        "value": "756.5241.1336.23"
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/men/6.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+    },
+    "nat": "CH"
+},
+{
+    "gender": "female",
+    "name": {
+        "title": "Ms",
+        "first": "Assunção",
+        "last": "Dias"
+    },
+    "location": {
+        "street": {
+            "number": 4147,
+            "name": "Rua Dom Pedro Ii "
+        },
+        "city": "Parintins",
+        "state": "Maranhão",
+        "country": "Brazil",
+        "postcode": 44861,
+        "coordinates": {
+            "latitude": "-87.1590",
+            "longitude": "74.2690"
+        },
+        "timezone": {
+            "offset": "0:00",
+            "description": "Western Europe Time, London, Lisbon, Casablanca"
+        }
+    },
+    "email": "assuncao.dias@example.com",
+    "login": {
+        "uuid": "2fc82a59-4721-455a-b51d-16d7649564a1",
+        "username": "yellowbear111",
+        "password": "evil",
+        "salt": "rNfYxbRq",
+        "md5": "6176f00945bd2e85e06c5897244f6885",
+        "sha1": "99d49bae637a5686e380a5d9747829445010e287",
+        "sha256": "cb486ddb1b27cc3cf788b06c4c98f10ab0e830a1a95c64820c3918e21a43d865"
+    },
+    "dob": {
+        "date": "1980-07-31T21:22:37.884Z",
+        "age": 42
+    },
+    "registered": {
+        "date": "2014-06-16T18:39:59.305Z",
+        "age": 8
+    },
+    "phone": "(58) 1212-6050",
+    "cell": "(44) 0146-9671",
+    "id": {
+        "name": "",
+        "value": null
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/women/64.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/64.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/64.jpg"
+    },
+    "nat": "BR"
+},
+{
+    "gender": "female",
+    "name": {
+        "title": "Ms",
+        "first": "Maddison",
+        "last": "Thomas"
+    },
+    "location": {
+        "street": {
+            "number": 6377,
+            "name": "Bridge Road"
+        },
+        "city": "Exeter",
+        "state": "Bedfordshire",
+        "country": "United Kingdom",
+        "postcode": "S9 3GX",
+        "coordinates": {
+            "latitude": "57.0594",
+            "longitude": "-42.6921"
+        },
+        "timezone": {
+            "offset": "+5:45",
+            "description": "Kathmandu"
+        }
+    },
+    "email": "maddison.thomas@example.com",
+    "login": {
+        "uuid": "0b45f00a-ba9d-4241-8909-0670379ebc39",
+        "username": "crazygorilla175",
+        "password": "benjamin",
+        "salt": "ApBFkRvL",
+        "md5": "993c749e84490e0042decaebc1de6174",
+        "sha1": "df04e90a902c8cdad213633a3de95ae5213b0780",
+        "sha256": "52e0aa0108747f7c7253a35fd544ebae612db814552ea8f69eed43b9a0b23fa2"
+    },
+    "dob": {
+        "date": "1961-01-04T11:49:37.075Z",
+        "age": 61
+    },
+    "registered": {
+        "date": "2005-09-09T15:10:42.053Z",
+        "age": 17
+    },
+    "phone": "017683 29762",
+    "cell": "0749-251-941",
+    "id": {
+        "name": "NINO",
+        "value": "ER 01 58 03 K"
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/women/15.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/15.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/15.jpg"
+    },
+    "nat": "GB"
+},
+{
+    "gender": "male",
+    "name": {
+        "title": "Mr",
+        "first": "Nikolaj",
+        "last": "Pedersen"
+    },
+    "location": {
+        "street": {
+            "number": 8555,
+            "name": "Egelunden"
+        },
+        "city": "Øster Assels",
+        "state": "Danmark",
+        "country": "Denmark",
+        "postcode": 77181,
+        "coordinates": {
+            "latitude": "30.4547",
+            "longitude": "55.1941"
+        },
+        "timezone": {
+            "offset": "+9:30",
+            "description": "Adelaide, Darwin"
+        }
+    },
+    "email": "nikolaj.pedersen@example.com",
+    "login": {
+        "uuid": "ecba1509-6378-42b5-9246-1432f6a60a11",
+        "username": "beautifulgoose827",
+        "password": "axio",
+        "salt": "4nikEVVZ",
+        "md5": "12f29147359754a28a3820ad8dc7b527",
+        "sha1": "1b0d773669242cef14e71523688da623321a04db",
+        "sha256": "037c147376a4d9415b7bd38972e7011f49a7c70167e468ebde71dd23b662cf4a"
+    },
+    "dob": {
+        "date": "1958-03-05T14:43:21.724Z",
+        "age": 64
+    },
+    "registered": {
+        "date": "2006-10-29T06:37:00.943Z",
+        "age": 16
+    },
+    "phone": "66020703",
+    "cell": "70333030",
+    "id": {
+        "name": "CPR",
+        "value": "050358-7433"
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/men/22.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg"
+    },
+    "nat": "DK"
+},
+{
+    "gender": "female",
+    "name": {
+        "title": "Mrs",
+        "first": "Fatima",
+        "last": "Schreyer"
+    },
+    "location": {
+        "street": {
+            "number": 5390,
+            "name": "Raiffeisenstraße"
+        },
+        "city": "Rheinböllen",
+        "state": "Schleswig-Holstein",
+        "country": "Germany",
+        "postcode": 84431,
+        "coordinates": {
+            "latitude": "29.1692",
+            "longitude": "-42.8106"
+        },
+        "timezone": {
+            "offset": "-8:00",
+            "description": "Pacific Time (US & Canada)"
+        }
+    },
+    "email": "fatima.schreyer@example.com",
+    "login": {
+        "uuid": "a87c7f08-a17b-4b77-9aca-24b4ac85305b",
+        "username": "organicostrich834",
+        "password": "misty1",
+        "salt": "ADHO9KVs",
+        "md5": "e0859356df33cf4ea31d5243c7e6427d",
+        "sha1": "5f416341bded6a4ba8b14b1c3c1431d27411eb04",
+        "sha256": "ef7a0606c5108d119baa8926eaf582c2e040bb49fda49e03fc5947d08516d903"
+    },
+    "dob": {
+        "date": "1948-01-02T06:32:32.974Z",
+        "age": 74
+    },
+    "registered": {
+        "date": "2006-06-17T22:56:49.143Z",
+        "age": 16
+    },
+    "phone": "0786-3390204",
+    "cell": "0175-6579805",
+    "id": {
+        "name": "",
+        "value": null
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/women/48.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/48.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+    },
+    "nat": "DE"
+}
+]
+}
