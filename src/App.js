@@ -7,21 +7,20 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import './style.scss'
 
 function App() {
-const user={
-  email:''
-}
+  const user = {
+    email: ''
+  }
 
   return (
     <div>
-    <BrowserRouter BrowserRouter>
-    <Navbar/>
-      <Routes> 
-        <Route path="/" element={<Login />}/>
-        
-        <Route path="/home" element={<Home/>}/>
+      <BrowserRouter BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
-         
-      </BrowserRouter>  
+
+      </BrowserRouter>
     </div>
   );
 }

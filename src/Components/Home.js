@@ -18,9 +18,9 @@ function Home() {
     let data = await fetch(url);
     let parseData = await data.json();
     setResults(parseData.results);
-    setLoading(false);
-
+    setLoading(false)
   }
+
   const fetchNextUsers = async () => {
     setCount(count + 16);
     setPage(page + 1);
@@ -30,7 +30,6 @@ function Home() {
     setResults(results.concat(parseData.results));
     setLoading(false);
   }
-  console.log(results)
 
   useEffect(() => {
     updateList();
