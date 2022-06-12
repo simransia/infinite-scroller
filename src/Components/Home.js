@@ -5,13 +5,15 @@ import { MdEmail } from 'react-icons/md';
 import CardSkeleton from './CardSkeleton';
 import InfinitScroll from 'react-infinite-scroll-component'
 import Loader from './Loader';
-
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const [results, setResults] = useState([])
   const [loading, setLoading] = useState(true);
   const [count, setCount] = useState(16);
   const [page, setPage] = useState(1);
+
+  let history = useNavigate();
 
   const updateList = async () => {
     let url = `https://randomuser.me/api/?results=${count}&page=${page}`;
@@ -32,7 +34,11 @@ function Home() {
   }
 
   useEffect(() => {
-    updateList();
+    if (localStorage.getItem("token") == null) {
+      history("/");
+    } else {
+      updateList();
+    }
   }, [])
 
   return (
@@ -41,7 +47,7 @@ function Home() {
         dataLength={results.length}
         next={fetchNextUsers}
         hasMore={true}
-        loader={<Loader/>} >
+        loader={<Loader />} >
 
         <div className='container'>
 

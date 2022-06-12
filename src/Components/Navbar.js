@@ -4,6 +4,10 @@ import React from 'react'
 function Navbar() {
     let location = useLocation();
 
+    const handleClick = () => {
+        localStorage.removeItem("token");
+    }
+
     return (
         <nav className="navbar navbar-expand navbar-light bg-light">
             <div className="container-fluid">
@@ -20,7 +24,7 @@ function Navbar() {
                         </ul>
                         <ul className="navbar-nav mr-auto text-white">
                             <li className="nav-item">
-                                <a className="nav-link" href="/"><b>Logout</b></a>
+                                <a className="nav-link" href="/" onClick={handleClick}><b>Logout</b></a>
                             </li>
                         </ul>
                     </div> : ""}

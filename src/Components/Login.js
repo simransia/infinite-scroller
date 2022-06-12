@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Login() {
@@ -6,6 +6,13 @@ function Login() {
     const [credentials, setCredentials] = useState({ username: "", password: "" })
     const [error, setError] = useState('');
     let history = useNavigate();
+    const token =localStorage.getItem("token");
+
+    useEffect(()=>{
+       if(token != null){
+         history("/home");
+       }
+    }, [])
 
     const user = {
         userName: 'foo',
@@ -21,6 +28,7 @@ function Login() {
         if (credentials.username == user.userName && credentials.password == user.password) {
             history("/home");
             setError('');
+            localStorage.setItem("token", "yxzdhihhosujh")
         } else {
             setError("Details do not match!");
         }
